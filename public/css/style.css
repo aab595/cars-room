@@ -43,6 +43,9 @@ body {
 
 .header .header-text {
 	font-size: 1em;
+	font-weight: 500;
+	margin-top: 5px;
+	line-height: 2em;
 }
 
 .header .header-go {
@@ -204,10 +207,12 @@ body {
 .btn:hover {
 	opacity: 1;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+	transition: all .3s;
 }
 
 .btn:hover .iconify {
-	transform: scale(1.5);
+	transform: scale(1.2);
+	transition: all .5s;
 }
 
 .btn-default {
@@ -233,11 +238,11 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.2em;
+	font-size: 1em;
 	margin-top: 10px;
 	border: 3px solid #2b9348;
     border-radius: 5px;
-    padding: 5px 0;
+    padding: 7px 16px;
 }
 
 @media screen and (max-width: 440px) {
